@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="starcraft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_helpers\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="starcraft">
+				<Option output="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/starcraft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 starcraft"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="starcraft/fast">
+				<Option output="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/starcraft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 starcraft/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/BattleField.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/Defines.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/ProtossShips.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/ProtossTurn.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/TerranShips.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/TerranTurn.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/Vector.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/include/input.h">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/BattleField.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/ProtossShips.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/ProtossTurn.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/TerranShips.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/TerranTurn.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/Vector.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/input.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/src/main.c">
+			<Option target="starcraft"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ivan/CLionProjects/starcraft1/cmake_helpers/helpers_c.cmake">
+			<Option virtualFolder="CMake Files\cmake_helpers\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

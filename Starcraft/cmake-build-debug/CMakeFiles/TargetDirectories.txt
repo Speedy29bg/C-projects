@@ -1,0 +1,3 @@
+/home/mary/Documents/starcraft/cmake-build-debug/CMakeFiles/starcraft.dir
+/home/mary/Documents/starcraft/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mary/Documents/starcraft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
