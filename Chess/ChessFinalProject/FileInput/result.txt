@@ -1,0 +1,2 @@
+The path : dl 0 ->lu 0 ->dl 0 ->rd 0 ->dl 0 ->END
+The number of moves : 5
